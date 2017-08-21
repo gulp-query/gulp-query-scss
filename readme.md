@@ -50,8 +50,6 @@ gulp scss:admin scss:main watch // Wathcing change only for admin.scss and main.
     source_map: true,
     source_map_type: 'inline',
     full: false, // if set true is without compress in prod
-    image_dir_css: '../images/', // for css (image-url) 
-    image_dir_save: 'images/', // for save image assets. Relative path from gulpfile.js 
     includePaths: [
         //'../node_modules/compass-mixins/lib/', // relative path from gulpfile.js 
     ],
