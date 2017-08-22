@@ -2,6 +2,10 @@
 SCSS plugin for [gulp-query](https://github.com/gulp-query/gulp-query)
 
 Uses [cssnano](http://cssnano.co/) with autoprefixer for optimization
+
+This plugin provides automatic source maps, compiling Sass into CSS, autoprefixing and minification.
+Write your CSS rules without vendor prefixes — autoprefixer will do everything itself
+
 ```
 npm install gulp-query gulp-query-scss
 ```
