@@ -17,7 +17,7 @@ let build = require('gulp-query')
   , scss = require('gulp-query-scss')
 ;
 cocktail(function (query) {
-    query.plugins([scss, webpack])
+    query.plugins([scss])
       .scss('src/scss/app.scss','css/','app')
 
       .scss('src/scss/admin.scss','css/undercover.css',{
@@ -38,17 +38,17 @@ And feel the freedom
 ```
 gulp
 gulp --production // For production
-gulp watch // Wathing change
+gulp watch // Watching change
 gulp scss // Only for scss
 gulp scss:app // Only for app.scss
-gulp scss:admin scss:main watch // Wathcing change only for admin.scss and main.scss
+gulp scss:admin scss:main watch // Watching change only for admin.scss and main.scss
 ...
 ```
 
 ### Options
 ```javascript
 .scss({
-    name: "new_name", // For gulp scss:new_name 
+    name: "task_name", // For gulp scss:task_name 
     from: "scss/app.scss",
     to: "css/",
     source_map: true,

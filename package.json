@@ -1,7 +1,7 @@
 {
     "name": "gulp-query-scss",
     "version": "1.0.0",
-    "description": "Plugin of gulp-query for SCSS(SASS)",
+    "description": "This plugin provides automatic source maps, compiling Sass into CSS, autoprefixing and minification",
     "main": "index.js",
     "author": "Marat Nuriev",
     "email": "nurieff@gmail.com",
