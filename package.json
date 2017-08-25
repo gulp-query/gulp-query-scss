@@ -6,7 +6,7 @@
     "author": "Marat Nuriev",
     "email": "nurieff@gmail.com",
     "license": "MIT",
-    "repository": "https://github.com/gulp-query/qulp-query-scss",
+    "repository": "https://github.com/gulp-query/gulp-query-scss",
     "keywords": [
         "css",
         "autoprefixer",
