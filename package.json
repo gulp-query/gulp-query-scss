@@ -7,11 +7,21 @@
     "email": "nurieff@gmail.com",
     "license": "MIT",
     "repository": "https://github.com/gulp-query/qulp-query-scss",
+    "keywords": [
+        "css",
+        "autoprefixer",
+        "gulp",
+        "gulp-query",
+        "gulp-query-plugin",
+        "minification",
+        "scss",
+        "sass"
+    ],
     "dependencies": {
         "gulp": "^3.9.1",
         "gulp-cssnano": "^2.1.2",
         "gulp-if": "^2.0.2",
-        "gulp-query": "github:gulp-query/gulp-query",
+        "gulp-query": "^1.0.0",
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
         "gulp-sourcemaps": "^2.6.0"
