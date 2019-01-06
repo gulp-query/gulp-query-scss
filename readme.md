@@ -16,7 +16,7 @@ Paste the code into your `gulpfile.js` and configure it
 let build = require('gulp-query')
   , scss = require('gulp-query-scss')
 ;
-cocktail(function (query) {
+build((query) => {
     query.plugins([scss])
       .scss('src/scss/app.scss','css/','app')
 
